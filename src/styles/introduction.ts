@@ -1,12 +1,14 @@
 import styled from "styled-components"
 
+
 export const Wrapper = styled.section`
     height: 100vh;
+    overflow: hidden;
     display:  flex;
     justify-content: center;
     align-items: center;
     color: var(--gray-200);
-    
+
     & > div{
         max-width: 1200px;
         padding: 2rem;
@@ -42,6 +44,7 @@ export const Wrapper = styled.section`
     }
 `
 
+
 export const ImgContainer = styled.div`
     max-width: 500px; 
     
@@ -51,8 +54,6 @@ export const ImgContainer = styled.div`
         max-width: 350px;
         border-radius: 100%;
     }
-
-
 `
 
 export const ButtonContainer = styled.div`
@@ -74,4 +75,27 @@ export const ButtonContainer = styled.div`
         }
     }
 `
+
+export const Background = styled.span`
+    background: radial-gradient(var(--pink) 0%, var(--gray-900) 60%);
+    opacity: 0.2;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    z-index: -99;
+    top: -50%;
+    right: -30%;
+`
+
+export const BackgroundPurple = styled.span`
+    background: radial-gradient(#5837D0 0%, var(--gray-900) 60%);
+    opacity: 0.3;
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    z-index: -98;
+    top: -20%;
+    right: -5%;
+`
+
 

@@ -1,9 +1,11 @@
-import { ButtonContainer, ImgContainer, Wrapper } from "../styles/introduction";
+import { Background, BackgroundPurple, ButtonContainer, ImgContainer, Wrapper } from "../styles/introduction";
 import { TypeWriter } from "./TypeWriter";
 
 export function Introduction(){
     return(
         <Wrapper>
+            <Background />
+            <BackgroundPurple />
             <div>
                 <div>
                     <strong>Hey! Eu sou</strong> 

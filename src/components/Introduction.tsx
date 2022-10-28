@@ -1,33 +1,41 @@
-import { ButtonContainer, ImgContainer, Wrapper } from "../styles/introduction";
+import { ImgContainer, Wrapper } from "../styles/introduction";
 import { TypeWriter } from "./TypeWriter";
+import { LinkedinLogo, GithubLogo, InstagramLogo, DownloadSimple } from 'phosphor-react'
+import ScrollAnimation from "react-animate-on-scroll";
+import "animate.css/animate.min.css";
 
 export function Introduction(){
     return(
-        <Wrapper>
-            <div>
+        <Wrapper id='home'>
+            <span></span>
+            <span></span>
+            <article>
                 <div>
-                    <strong>Hey! Eu sou</strong> 
+                    <strong>Olá 👋! Eu sou</strong> 
                     <h1>Ashley Nascimento</h1>
                     <TypeWriter value="desenvolvedora front-end" />
                     <span>
-                        Bem-vindo ao meu portifólio, sou formada em Análise e Desenvolvimento de Sistemas e iniciei no mercado o início de 2021. No momento estou me especializando em tecnologias web, especificamente em React.js e Next.js.
+                        Sou formada em Análise e Desenvolvimento de Sistemas e estou me especializando em tecnologias web, especificamente em React.js.
                     </span>
 
                     <div>
-                        Me siga:
+                        <nav> 
+                            <a href="#"><LinkedinLogo size={22} weight="fill" /></a>                           
+                            <a href="#"><GithubLogo size={22} weight="fill" /> </a>                           
+                            <a href="#"><InstagramLogo size={22} weight="fill" /></a>                           
+                        </nav>
                     </div>
 
-                    <ButtonContainer>
-                        <button>Contato</button>
-                        <button>Download CV</button>
-                    </ButtonContainer>
+                    <button>
+                        <DownloadSimple size={16} weight="bold" />
+                        Download CV
+                    </button>
                 </div>
 
                 <ImgContainer>
-                    <img src="../../src/assets/introduction-img.jpg" alt="Garota Digitando" />
+                    <div></div>
                 </ImgContainer>
-
-            </div>
+            </article>
         </Wrapper>
     )
 }

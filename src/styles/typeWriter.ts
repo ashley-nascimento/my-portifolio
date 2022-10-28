@@ -8,7 +8,7 @@ const blinkTextCursor = keyframes`
 export const TextCursor = styled.span`
   border-right: 2px solid var(--pink);
   display: inline;
-  animation: ${blinkTextCursor} 0.7s steps(44) infinite normal;
+  animation: ${blinkTextCursor} 0.7s steps(44) infinite;
 `
 
 export const Container = styled.p`

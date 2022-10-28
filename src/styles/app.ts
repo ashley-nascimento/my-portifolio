@@ -2,6 +2,9 @@ import styled from "styled-components"
 
 export const Wrapper = styled.div`
     main{
-        margin-left: 80px;
+
+        @media (min-width: 768px){
+            margin-left: 80px;
+        }
     }
 `

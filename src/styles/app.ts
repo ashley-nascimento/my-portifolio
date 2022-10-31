@@ -15,4 +15,10 @@ export const Wrapper = styled.div`
             }
         }
     }
+
+    footer{
+        @media (min-width: 768px){
+            margin-left: 80px;
+        }
+    }
 `

@@ -1,4 +1,5 @@
 import { About } from "./components/About";
+import { Footer } from "./components/Footer";
 import { Introduction } from "./components/Introduction";
 import { Sidebar } from "./components/Sidebar";
 import { Stack } from "./components/Stack";
@@ -13,6 +14,7 @@ export function App() {
         <About />
         <Stack />
       </main>
+      <Footer />
     </Wrapper>
   )
 }

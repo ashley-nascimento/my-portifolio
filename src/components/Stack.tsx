@@ -8,6 +8,15 @@ export function Stack(){
                 <Code size={32} />
                 Tecnologias
             </strong>
+
+            React
+            Next.js
+            HTML5
+            CSS
+            SASS | SCSS
+            Javascript
+            TypeScript
+            
         </Wrapper>
     )
 }

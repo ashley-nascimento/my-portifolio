@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 2rem;
+        margin: 4rem;
         gap: 1rem;
         font-size: 1.25rem;
         text-transform: uppercase;
@@ -23,15 +23,22 @@ export const Wrapper = styled.section`
     }
 
     article{
-        div{
+        li > div{
             background: var(--gray-700);
+            border: 2px solid var(--gray-700);
             border-radius: 8px;
             padding: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
             gap: 0.5rem;
+
+            &:hover{
+                border: 2px solid var(--pink);
+            }
 
             img{
                 width: 100px;

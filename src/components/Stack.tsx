@@ -43,6 +43,14 @@ export function Stack(){
                     React.js
                 </div>
                 <div>
+                    <img src="/sass-1.svg" alt="SASS" />
+                    Sass
+                </div>
+                <div>
+                    <img src="/typescript-2.svg" alt="TypeScript" />
+                    TypeScript
+                </div>
+                <div>
                     <img src="/html-1.svg" alt="HTML" />
                     HTML
                 </div>
@@ -54,19 +62,11 @@ export function Stack(){
                     <img src="/logo-javascript.svg" alt="JavaScript" />
                     JavaScript
                 </div>
-                <div>
-                    <img src="/typescript-2.svg" alt="TypeScript" />
-                    TypeScript
-                </div>
-                <div>
-                    <img src="/sass-1.svg" alt="SASS" />
-                    Sass
-                </div>
+
                 <div>
                     <img src="/tailwind-css-2.svg" alt="Tailwind" />
                     TailwindCSS
                 </div>
-
             </Carousel>
 
             </article>

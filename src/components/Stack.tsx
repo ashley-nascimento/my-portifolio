@@ -67,6 +67,18 @@ export function Stack(){
                     <img src="/tailwind-css-2.svg" alt="Tailwind" />
                     TailwindCSS
                 </div>
+                <div>
+                    <img src="/bootstrap-5.svg" alt="Bootstrap" />
+                    BootStrap
+                </div>
+                <div>
+                    <img src="/jquery-2.svg" alt="jQuery" />
+                    jQuery
+                </div>
+                <div>
+                    <img src="/php-1.svg" alt="PHP" />
+                    PHP
+                </div>
             </Carousel>
 
             </article>

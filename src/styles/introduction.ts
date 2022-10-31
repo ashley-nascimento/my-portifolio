@@ -32,10 +32,7 @@ export const Wrapper = styled.section`
     }
 
     & > article{
-        max-width: 1200px;
-        padding: 2rem;
         gap: 2rem;
-        width: 100%;
         display:  flex;
         justify-content: space-around;
         align-items: center;

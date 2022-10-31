@@ -1,16 +1,17 @@
 import styled from "styled-components"
 
 export const Wrapper = styled.section`
-    height: 100vh;
     color: var(--gray-200);
     position: relative;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     strong{
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 2rem;
+        margin: 4rem;
         gap: 1rem;
         font-size: 1.25rem;
         text-transform: uppercase;
@@ -18,6 +19,31 @@ export const Wrapper = styled.section`
         svg{
 
             color: var(--pink);       
+        }
+    }
+
+    article{
+        li > div{
+            background: var(--gray-700);
+            border: 2px solid var(--gray-700);
+            border-radius: 8px;
+            padding: 1rem;
+            margin-left: 1rem;
+            margin-right: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            &:hover{
+                border: 2px solid var(--pink);
+            }
+
+            img{
+                width: 100px;
+                height: 100px;
+            }
         }
     }
 `

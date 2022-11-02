@@ -6,18 +6,9 @@ import "react-multi-carousel/lib/styles.css"
 export function Stack(){
 
     const responsive = {
-        superLargeDesktop: {
-            // the naming can be any, depends on you.
-            breakpoint: { max: 4000, min: 3000 },
-            items: 2
-        },
-        desktop: {
-            breakpoint: { max: 3000, min: 1024 },
-            items: 3
-        },
         tablet: {
             breakpoint: { max: 1024, min: 464 },
-            items: 2
+            items: 3
         },
         mobile: {
             breakpoint: { max: 464, min: 0 },
@@ -29,60 +20,108 @@ export function Stack(){
         <Wrapper id='stack'>
             <strong>
                 <Code size={32} />
-                Tecnologias
+                Habilidades
             </strong>
 
             <article>
-
-            <Carousel 
-                responsive={responsive}
-           
-                >
                 <div>
-                    <img src="/react-2.svg" alt="React" />
-                    React.js
-                </div>
-                <div>
-                    <img src="/sass-1.svg" alt="SASS" />
-                    Sass
-                </div>
-                <div>
-                    <img src="/typescript-2.svg" alt="TypeScript" />
-                    TypeScript
-                </div>
-                <div>
-                    <img src="/html-1.svg" alt="HTML" />
-                    HTML
-                </div>
-                <div>
-                    <img src="/css-3.svg" alt="CSS" />
-                    CSS
-                </div>
-                <div>
-                    <img src="/logo-javascript.svg" alt="JavaScript" />
-                    JavaScript
+                    <div>
+                        <img src="/html-1.svg" alt="HTML" />
+                    </div>
+                    <p>
+                        <b>
+                            HTML
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
                 </div>
 
                 <div>
-                    <img src="/tailwind-css-2.svg" alt="Tailwind" />
-                    TailwindCSS
+                    <div>
+                        <img src="/css-3.svg" alt="CSS" />
+                    </div>
+                    <p>
+                        <b>
+                            CSS
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
                 </div>
-                <div>
-                    <img src="/bootstrap-5.svg" alt="Bootstrap" />
-                    BootStrap
-                </div>
-                <div>
-                    <img src="/jquery-2.svg" alt="jQuery" />
-                    jQuery
-                </div>
-                <div>
-                    <img src="/php-1.svg" alt="PHP" />
-                    PHP
-                </div>
-            </Carousel>
 
+                <div>
+                    <div>
+                        <img src="/logo-javascript.svg" alt="JavaScript" />
+                    </div>
+                    <p>
+                        <b>
+                            JavaScript
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="/react-2.svg" alt="React" />
+                    </div>
+                    <p>
+                        <b>
+                            React.js
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="/typescript-2.svg" alt="TypeScript" />
+                    </div>
+                    <p>
+                        <b>
+                            TypeScript
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="/sass-1.svg" alt="SASS" />
+                    </div>
+                    <p>
+                        <b>
+                            Sass
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
+                </div>
+
+                <div>
+                    <div>
+                        <img src="/tailwind-css-2.svg" alt="Tailwind" />
+                    </div>
+                    <p>
+                        <b>
+                            TailwindCSS
+                        </b>
+                        <span>
+                            99%
+                        </span>
+                    </p>
+                </div>
             </article>
-            
         </Wrapper>
     )
 }

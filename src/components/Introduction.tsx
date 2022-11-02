@@ -26,10 +26,12 @@ export function Introduction(){
                         </nav>
                     </div>
 
-                    <button>
-                        <DownloadSimple size={16} weight="bold" />
-                        Download CV
-                    </button>
+                    <div>                        
+                        <button>
+                            <DownloadSimple size={16} weight="bold" />
+                            Download CV
+                        </button>
+                    </div>
                 </div>
 
                 <ImgContainer>

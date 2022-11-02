@@ -14,12 +14,16 @@ export const steam = keyframes`
 `
 
 export const Wrapper = styled.section`
-    height: 100vh;
+    min-height: 100vh;
     display:  flex;
     justify-content: center;
     align-items: center;
     color: var(--gray-200);
     position: relative;
+
+    @media(max-width: 768px){
+        text-align: center;
+    }
 
     & > span:first-child{
         background: radial-gradient(var(--pink) 0%, transparent  60%);
@@ -61,6 +65,7 @@ export const Wrapper = styled.section`
         }
 
         h1{
+            color: var(--title);
             font-size: 2rem;
             line-height: 1.5;
         }
@@ -79,6 +84,10 @@ export const Wrapper = styled.section`
                 display:  flex;
                 align-items: center;
                 gap: 0.5rem;
+                @media(max-width: 768px){
+                    justify-content: center;
+                }
+
 
                 a{
                     color: var(--gray-300);
@@ -89,29 +98,60 @@ export const Wrapper = styled.section`
                 }
             }
         }
-    }
+        button{
+            @media(max-width: 768px){
+                width: 100%;
+                justify-content: center;
+            }
 
-    button{
-        margin-top: 2rem;
-        background: transparent;
-        color: var(--gray-200);
-        border: 1px solid var(--pink);
-  
-        padding: 1rem 2rem;
-        font-weight: 600;
-        display:  flex;
-        align-items: center;
-        gap: 0.5rem;
 
-        transition: 0.5s;
+            margin-top: 2rem;
+            color: var(--gray-200);
+            border-radius: 100px;
+            padding: 1rem 2rem;
+            font-weight: 600;
+            display:  flex;
+            align-items: center;
+            gap: 0.5rem;
 
-        &:hover{
-            border-color: transparent;
-            color: var(--gray-50);
-            box-shadow: inset 13.5em 0 0 0 var(--pink);
+            background-color: transparent;
+            border: 0;
+            position: relative;
+            z-index: 0;
 
+            transition: 2s;
+
+            &::after{
+                content: "";
+                position: absolute;
+                z-index: -1;
+                inset: 0;
+                padding: 2px;
+       
+                background: linear-gradient(to right, var(--purple),  var(--pink));
+                -webkit-mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                mask: 
+                    linear-gradient(#fff 0 0) content-box, 
+                    linear-gradient(#fff 0 0);
+                -webkit-mask-composite: xor;
+                mask-composite: exclude;
+
+                border-radius: 100px;
+            }
+    
+            &:hover{
+    
+                color: var(--title);
+
+                box-shadow: inset 7em 0 50px 0 var(--purple),
+                inset 100em 0 0 0 var(--pink);
+            }
         }
     }
+
+   
 `
 
 export const ImgContainer = styled.div`

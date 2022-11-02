@@ -31,6 +31,10 @@ export const Wrapper = styled.section`
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @media (max-width:768px){
+            flex-wrap: wrap;
+        }
         padding: 2rem;
         gap: 2rem;
         border-radius: 8px;

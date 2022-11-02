@@ -21,4 +21,14 @@ export const Wrapper = styled.section`
             color: var(--pink);       
         }
     }
+
+
+    div{
+        width: 10rem;
+        height: 10rem;
+
+        img{
+            width: 100%;
+        }
+    }
 `

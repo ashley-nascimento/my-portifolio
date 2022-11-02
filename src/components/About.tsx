@@ -12,7 +12,7 @@ export function About(){
             <article>
 
                 <div>
-                    <img src="../../src/assets/undraw_react_re_g3ui.svg" alt="React" />
+                    <img src="/girl-code.gif" alt="React" />
                 </div>
 
                 <p>

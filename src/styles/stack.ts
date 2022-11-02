@@ -11,7 +11,7 @@ export const Wrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 4rem;
+        margin-top: 4rem;
         gap: 1rem;
         font-size: 1.25rem;
         text-transform: uppercase;
@@ -24,8 +24,8 @@ export const Wrapper = styled.section`
 
     article{
         li > div{
-            background: var(--gray-700);
-            border: 2px solid var(--gray-700);
+            background: var(--gray-900);
+            border: 2px solid var(--gray-900);
             border-radius: 8px;
             padding: 1rem;
             margin-left: 1rem;

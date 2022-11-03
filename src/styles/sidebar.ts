@@ -16,7 +16,7 @@ export const SidebarContainer = styled.aside`
     width: 80px;
     height: 100vh;
     position: fixed;
-    background-color: var(--gray-800);
+    background-color: #00000022;
 
     @media (max-width: 768px){
         display: none;

@@ -11,7 +11,7 @@ export const spinner = keyframes`
 
 export const Wrapper = styled.footer`
     padding: 1.5rem 2rem;
-    background-color: #252525;
+    background-color: var(--gray-800);
     color: var(--gray-200);
     letter-spacing: 0.1rem;
     display: flex;

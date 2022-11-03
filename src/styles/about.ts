@@ -2,6 +2,7 @@ import styled from "styled-components"
 
 export const Wrapper = styled.section`
     color: var(--gray-300);
+    background: var(--gray-850);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -15,7 +16,7 @@ export const Wrapper = styled.section`
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin: 4rem;
+        margin-top: 4rem;
         gap: 1rem;
         font-size: 1.25rem;
         text-transform: uppercase;
@@ -30,9 +31,12 @@ export const Wrapper = styled.section`
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @media (max-width:768px){
+            flex-wrap: wrap;
+        }
         padding: 2rem;
         gap: 2rem;
-        background-color: var(--gray-800);
         border-radius: 8px;
 
         p{

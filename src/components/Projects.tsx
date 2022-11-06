@@ -8,6 +8,7 @@ export function Projects(){
                 <Laptop size={32} />
                 Meus projetos
             </strong>
+            
             <article>
                 <div>
                     <div>

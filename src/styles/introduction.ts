@@ -50,7 +50,7 @@ export const Wrapper = styled.section`
     & > article{
         gap: 2rem;
         display:  flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
 
         @media (max-width: 728px) {

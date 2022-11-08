@@ -16,7 +16,7 @@ export const Wrapper = styled.footer`
     letter-spacing: 0.1rem;
     display: flex;
     justify-content: center;
-    margin-top: 1rem;
+    margin-top: 10rem;
 
     align-items: center;
     gap: 0.5rem;

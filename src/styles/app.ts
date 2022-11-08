@@ -12,7 +12,7 @@ export const Wrapper = styled.div`
             padding: 1rem;
             
             article{
-                max-width: 1200px;
+                max-width: 1080px;
                 width: 100%;   
             }
         }

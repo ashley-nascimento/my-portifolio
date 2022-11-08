@@ -28,23 +28,23 @@ export const Wrapper = styled.section`
     & > span:first-child{
         background: radial-gradient(var(--pink) 0%, transparent  60%);
         opacity: 0.2;
-        width: 1000px;
-        height: 1000px;
+        width: 80%;
+        height: 80%;
         position: absolute;
         z-index: -99;
-        top: -300px;
-        left: -400px;
+        top: -30%;
+        left: -30%;
     }
 
     & > span:not(:first-child){
         background: radial-gradient(var(--purple) 0%, transparent  60%);
         opacity: 0.3;
-        width: 1000px;
-        height: 1000px;
+        width: 80%;
+        height: 80%;
         position: absolute;
         z-index: -98;
-        top: -100px;
-        left: -50px;
+        top: -10%;
+        left: -10%;
     }
 
     & > article{

@@ -8,16 +8,37 @@ export function Projects(){
                 <Laptop size={32} />
                 Meus projetos
             </strong>
+            
             <article>
                 <div>
-                    <img src="/home-desktop.png" alt="Projeto" />
-                    {/* <h1>
-                        Nome do projeto
-                    </h1>
-                    <p>
-                        descrição
-                    </p> */}
+                    <div>
+                        <img src="/home-desktop.png" alt="Projeto" />
+                    </div>
+                    <span>
+                        <img src="/typescript-2.svg" alt="Projeto" />
+                        <strong>
+                            React Events Platform
+                        </strong>
+                    </span>
+                    <div>
+                        <p>
+                            A Plaforma de Eventos é um sistema desenvolvido durante o evento Ignite Lab da Rocketseat.
+                        </p>
+
+                        <span></span>
+
+                        <div>
+                            <a href="#" no-referrer>Repositório</a>
+                            <a href="#" no-referrer>Demostração</a>
+                        </div>
+                    </div>
                 </div>
+
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
             </article>
         </Wrapper>
     )

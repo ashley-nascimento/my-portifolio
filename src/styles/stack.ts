@@ -32,7 +32,6 @@ export const Wrapper = styled.section`
 
         @media(max-width: 768px){
             grid-template-columns: auto;
-
         }
 
         div{
@@ -43,13 +42,13 @@ export const Wrapper = styled.section`
             div{
                 background-color: var(--gray-800);
                 border-radius: 10px;
-                padding: 0.5rem;
+                padding: 0.8rem;
 
                 display: flex;
 
                 img{
-                    width: 50px;
-                    height: 50px;
+                    width: 35px;
+                    height: 35px;
                 }
             }
             p{
@@ -63,9 +62,6 @@ export const Wrapper = styled.section`
                     color: var(--gray-300);
                 }
             }
-
-
-
         }
     }
 `
